@@ -5,3 +5,8 @@ sudo rm  /etc/apt/sources.list.d/PPA_Name.list
 
 /etc/apt/sources.list   :   This is the list of official reporsitories, which holds the url of software packages. https://repogen.simplylinux.ch/  can help to recreate it.
 /etc/apt/sources.list.d   :   This is the list of PPA(personal package archive) reporsitories, which holds the url of software packages
+
+
+//show avaliable package versions
+apt-cache policy <packageName>
+aptitude versions name
