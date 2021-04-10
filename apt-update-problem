@@ -1,0 +1,2 @@
+sudo ls /etc/apt/sources.list.d  // find that bad ppa list file, then rm it
+sudo rm  /etc/apt/sources.list.d/PPA_Name.list
