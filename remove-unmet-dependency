@@ -1,7 +1,0 @@
-0）sudo apt-get -f install
-
-1） apt install the dependency
-
-2）sudo dpkg -i --force-overwrite <filename>
-
-3）sudo apt-get -f install
