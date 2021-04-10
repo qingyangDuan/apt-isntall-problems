@@ -10,3 +10,8 @@ sudo rm  /etc/apt/sources.list.d/PPA_Name.list
 //show avaliable package versions
 apt-cache policy <packageName>
 aptitude versions name
+
+
+
+##unable to correct problem， conflits and broken
+sudo apt aptitude name
