@@ -19,4 +19,10 @@ sudo apt install name=version
 
 
 
+//remove packages
+sudo apt purge *nvidia* 
+dpkg -l | grep nvidia  #check packages about nvidia drivers
+# some packages may need “  dpkg --purge --force-all name ”  to remove them
+
+
 
